@@ -1,14 +1,14 @@
 package jUnitTestPackage;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class testaddnumbers{
+import org.junit.jupiter.api.Test;
+
+class testaddnumbers {
 
 	@Test
-	public void test() {
-		jUnitFunctions junit=new jUnitFunctions();
-		int result=junit.Addnumbers(100,200);
-		assertEquals(300,result);
+	void test() {
+		fail("Not yet implemented");
 	}
+
 }
