@@ -1,14 +1,16 @@
 package jUnitTestPackage;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 import org.junit.jupiter.api.Test;
 
-class testaddstrings {
+public class testaddstrings {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void test() {
+		jUnitFunctions junit=new jUnitFunctions();
+		String result=junit.AddStrings("Hello", "World");
+		assertEquals("Hello World",result);
 	}
 
 }
